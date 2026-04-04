@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+    color: rgb(203, 213, 203);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+article {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #f0f0f0;
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
+small {
+    display: block;
+    color: #888;
+    margin-top: 15px;
+    font-style: italic;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+article:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+#novo-post {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#novo-post input, #novo-post textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+#novo-post textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#novo-post button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#novo-post button:hover {
+    background-color: #0056b3;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn-excluir {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: background 0.3s;
+}
+
+.btn-excluir:hover {
+    background-color: #a71d2a;
+}
+
+.btn-editar {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: background 0.3s;
+}
+
+.btn-editar:hover {
+    background-color: #5a6268;
+}
