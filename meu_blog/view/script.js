@@ -22,6 +22,7 @@ async function buscarPosts() {
 }
 
 async function salvarPost() {
+    
     const titulo = document.getElementById('titulo').value;
     const conteudo = document.getElementById('conteudo').value;
 
